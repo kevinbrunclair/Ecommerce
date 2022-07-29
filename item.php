@@ -2,7 +2,7 @@
 <?php
 
 $name = 'TV';
-$Price = '999 euros';
+$price = '999 euros';
 $URL = 'Assets/tv.jpg';
 ?>
 
@@ -20,13 +20,12 @@ $URL = 'Assets/tv.jpg';
 ?>
 <h1>Welcome</h1>
 
-<h2>Only one article : <?= $name ?> </h2>
-
-<h2>Price : <?= $Price ?></h2>
-
-<div> <img src="<?= $URL?>" alt="photo tv"
-
+<div>
+    <h2>Only one article : <?= $name ?> </h2>
+    <h2>Price : <?= $price ?></h2>
+    <img src="<?= $URL?>" alt="photo tv" >
 </div>
+
 <?php
 include 'footer.php';
 ?>

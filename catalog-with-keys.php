@@ -20,7 +20,7 @@ $imac = [
     "price" => 30000,
     "weight" => 200,
     "discount" => 5,
-    "picture_url" => "https://cdn.lesnumeriques.com/optim/produits/71/20873/apple-imac-21-5-pouces-2014_c5b12519ad177b6c_png__450_400.jpg",
+    "picture_url" => "https://as-images.apple.com/is/refurb-2017-imac-215-gallery?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1499114976977",
 ];
 ?>
 
