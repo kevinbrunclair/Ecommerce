@@ -1,4 +1,3 @@
-
 <?php
 
 $name = 'TV';
@@ -16,14 +15,14 @@ $URL = 'Assets/tv.jpg';
 </head>
 <body>
 <?php
-    require 'header.php';
+require 'header.php';
 ?>
 <h1>Welcome</h1>
 
 <div>
     <h2>Only one article : <?= $name ?> </h2>
     <h2>Price : <?= $price ?></h2>
-    <img src="<?= $URL?>" alt="photo tv" >
+    <img src="<?= $URL ?>" alt="photo tv">
 </div>
 
 <?php

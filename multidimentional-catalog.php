@@ -21,9 +21,8 @@ $products = [
         "weight" => 400,
         "discount" => 5,
         "picture_url" => "https://as-images.apple.com/is/refurb-2017-imac-215-gallery?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1499114976977"
-]
-    ];
-
+    ]
+];
 
 ?>
 
@@ -36,24 +35,20 @@ $products = [
 </head>
 <body>
 
-<div>
-    <h3><?= $products['iphone']['name']?></h3>
-    <p>Price : <?= $products['iphone']["price"] . " euros "?></p>
-    <img src=<?= $products['iphone']['picture_url']?>>
-</div>
+<?php
+foreach ($products as $product) {
+    ?>
 
-<div>
-    <h3><?= $products['ipad']['name']?></h3>
-    <p>Price : <?= $products['ipad']["price"] . " euros "?></p>
-    <img src=<?= $products['ipad']['picture_url']?>>
-</div>
-
-<div>
-    <h3><?= $products['imac']['name']?></h3>
-    <p>Price : <?= $products['imac']["price"] . " euros "?></p>
-    <img src=<?= $products['imac']['picture_url']?>>
-</div>
-
+    <div>
+        <h3><?= $product['name'] ?></h3>
+        <p>Price : <?= $product["price"] . " euros " ?></p>
+        <p>Weight : <?= $product["weight"] ?></p>
+        <p>Discount : <?= $product["discount"] ?></p>
+        <img src=<?= $product['picture_url'] ?>>
+    </div>
+    <?php
+}
+?>
 
 </body>
 </html>

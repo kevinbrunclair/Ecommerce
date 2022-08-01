@@ -34,21 +34,21 @@ $imac = [
 <body>
 
 <div>
-  <h3><?= $iphone['name']?></h3>
-<p>Price : <?= $iphone['price'] . " euros "?></p>
-<img src=<?= $iphone['picture_url']?>>
+    <h3><?= $iphone['name'] ?></h3>
+    <p>Price : <?= $iphone['price'] . " euros " ?></p>
+    <img src=<?= $iphone['picture_url'] ?>>
 </div>
 
 <div>
-    <h3><?= $ipad['name']?></h3>
-    <p>Price : <?= $ipad['price']. " euros "?></p>
-    <img src=<?= $ipad['picture_url']?>>
+    <h3><?= $ipad['name'] ?></h3>
+    <p>Price : <?= $ipad['price'] . " euros " ?></p>
+    <img src=<?= $ipad['picture_url'] ?>>
 </div>
 
 <div>
-    <h3><?= $imac['name']?></h3>
-    <p>Price : <?= $imac['price']. " euros "?></p>
-    <img src=<?= $imac['picture_url']?>>
+    <h3><?= $imac['name'] ?></h3>
+    <p>Price : <?= $imac['price'] . " euros " ?></p>
+    <img src=<?= $imac['picture_url'] ?>>
 </div>
 
 </body>
