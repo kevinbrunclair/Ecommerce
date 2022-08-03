@@ -17,6 +17,8 @@ $URL = 'Assets/tv.jpg';
 <?php
 require 'header.php';
 ?>
+
+
 <h1>Welcome</h1>
 
 <div>

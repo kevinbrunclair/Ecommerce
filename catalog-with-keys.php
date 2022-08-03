@@ -1,4 +1,7 @@
 <?php
+
+require 'my-functions.php';
+
 $iphone = [
     "name" => "Iphone",
     "price" => 45000,
@@ -35,19 +38,19 @@ $imac = [
 
 <div>
     <h3><?= $iphone['name'] ?></h3>
-    <p>Price : <?= $iphone['price'] . " euros " ?></p>
+    <p>Price : <?php formatPrice($iphone["price"])  ?></p>
     <img src=<?= $iphone['picture_url'] ?>>
 </div>
 
 <div>
     <h3><?= $ipad['name'] ?></h3>
-    <p>Price : <?= $ipad['price'] . " euros " ?></p>
+    <p>Price : <?php formatPrice($ipad["price"])  ?></p>
     <img src=<?= $ipad['picture_url'] ?>>
 </div>
 
 <div>
     <h3><?= $imac['name'] ?></h3>
-    <p>Price : <?= $imac['price'] . " euros " ?></p>
+    <p>Price : <?php formatPrice($imac["price"])  ?></p>
     <img src=<?= $imac['picture_url'] ?>>
 </div>
 
